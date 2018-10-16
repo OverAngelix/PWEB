@@ -1,0 +1,21 @@
+03-Oct-2018 13:40:58.330 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Python35-32\Scripts\;C:\Program Files (x86)\Python35-32\;C:\Program Files\Tcl\bin;C:\Program Files\Python27\;C:\Program Files\Python27\Scripts;C:\Program Files\Perl64\site\bin;C:\Program Files\Perl64\bin;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WinSCP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Symyx\Symyx Draw 3.3\lib;C:\Program Files (x86)\Common Files\MDL Shared\ISIS;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;.
+03-Oct-2018 13:40:58.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Oct-2018 13:40:59.111 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Oct-2018 13:40:59.127 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2018 13:40:59.127 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Oct-2018 13:40:59.127 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1637 ms
+03-Oct-2018 13:40:59.252 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Oct-2018 13:40:59.252 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+03-Oct-2018 13:40:59.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\bdd\BDD3\tomcat\tomcat8\webapps\ROOT de l'application web
+03-Oct-2018 13:41:00.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\bdd\BDD3\tomcat\tomcat8\webapps\ROOT has finished in 1 156 ms
+03-Oct-2018 13:41:00.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\bdd\BDD3\tomcat\tomcat8\webapps\test de l'application web
+03-Oct-2018 13:41:00.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\bdd\BDD3\tomcat\tomcat8\webapps\test has finished in 312 ms
+03-Oct-2018 13:41:00.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\bdd\BDD3\tomcat\tomcat8\webapps\vide de l'application web
+03-Oct-2018 13:41:01.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\bdd\BDD3\tomcat\tomcat8\webapps\vide has finished in 1 000 ms
+03-Oct-2018 13:41:01.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\bdd\BDD3\tomcat\tomcat8\webapps\manager de l'application web
+03-Oct-2018 13:41:02.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\bdd\BDD3\tomcat\tomcat8\webapps\manager has finished in 282 ms
+03-Oct-2018 13:41:02.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\bdd\BDD3\tomcat\tomcat8\webapps\host-manager de l'application web
+03-Oct-2018 13:41:02.330 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\bdd\BDD3\tomcat\tomcat8\webapps\host-manager has finished in 281 ms
+03-Oct-2018 13:41:02.346 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Oct-2018 13:41:02.377 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2018 13:41:02.377 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3245 ms

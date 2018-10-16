@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>vide</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name> Palette </servlet-name>
+  <servlet-class> Palette </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Palette </servlet-name>
+  <url-pattern> /servlet-palette </url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name> Ascii </servlet-name>
+  <servlet-class> Ascii </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Ascii </servlet-name>
+  <url-pattern> /servlet-ascii </url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name> ListeJ </servlet-name>
+  <servlet-class> ListeJ </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> ListeJ </servlet-name>
+  <url-pattern> /servlet-listeJ </url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name> ListeSimple </servlet-name>
+  <servlet-class> ListeSimple </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> ListeSimple </servlet-name>
+  <url-pattern> /servlet-ListeSimple </url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  <servlet-name> ListeRencontre </servlet-name>
+  <servlet-class> ListeRencontre </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> ListeRencontre </servlet-name>
+  <url-pattern> /servlet-ListeRencontre </url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  <servlet-name> CreeRencontre </servlet-name>
+  <servlet-class> CreeRencontre </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> CreeRencontre </servlet-name>
+  <url-pattern> /servlet-CreeRencontre </url-pattern>
+  </servlet-mapping>
+  
+  
+       <servlet>
+  <servlet-name> MonEquipe </servlet-name>
+  <servlet-class> MonEquipe </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> MonEquipe </servlet-name>
+  <url-pattern> /servlet-MonEquipe </url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,105 @@
+* {
+	background-color: lavender;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	background-color: black;
+		 margin:10px 10px ;
+}
+
+section>header>h2{
+	font-size: 2em;
+	margin: 0;
+	font-weight: normal;
+	padding: 0;
+}
+
+article>h3 {
+	font-size:1.5em;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+body>header,footer{
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 1em;
+	border-style: groove;
+	border-color: black;
+}
+
+div>p{
+	background-color: grey;
+	
+	
+
+	width: 46%;
+	
+}
+
+
+article,div{
+	margin: 1%;
+	padding: 1%;
+
+
+}
+
+nav>ol>li{
+	display: inline;
+	padding: 4px;
+	font-size: 2em;
+	font-family: Trebuchet MS;
+	background-color: grey;
+
+
+}
+
+nav>ol>li>a{
+	color: white;
+	background-color: grey;
+	
+	
+}
+
+nav{
+	text-align: center;
+	background-color: grey;
+	border-style: groove;
+	border-color: black;
+
+	
+}
+
+nav>ol {
+	background-color: grey;
+}
+
+a:hover{
+	color: black;
+}
+
+/* css pour le tableau /*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	border:1px solid black
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+	 color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
