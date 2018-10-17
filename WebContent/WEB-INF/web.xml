@@ -80,4 +80,55 @@
   <servlet-name> MonEquipe </servlet-name>
   <url-pattern> /servlet-MonEquipe </url-pattern>
   </servlet-mapping>
+  
+    <servlet>
+  <servlet-name> Delete </servlet-name>
+  <servlet-class> Delete </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Delete </servlet-name>
+  <url-pattern> /servlet-Delete </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name> Cpt </servlet-name>
+  <servlet-class> Cpt </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Cpt </servlet-name>
+  <url-pattern> /servlet-Cpt </url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name> ListerJoueur </servlet-name>
+  <servlet-class> ListerJoueur </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> ListerJoueur </servlet-name>
+  <url-pattern> /servlet-ListerJoueur </url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  <servlet-name> ChoisirJoueur </servlet-name>
+  <servlet-class> ChoisirJoueur </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> ChoisirJoueur </servlet-name>
+  <url-pattern> /servlet-ChoisirJoueur </url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+  <servlet-name> Reset </servlet-name>
+  <servlet-class> Reset </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Reset </servlet-name>
+  <url-pattern> /servlet-Reset </url-pattern>
+  </servlet-mapping>
+  
 </web-app>

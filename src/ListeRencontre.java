@@ -24,7 +24,7 @@ public class ListeRencontre extends HttpServlet
         // Creer
         if(req.getParameter("equipe") != null){
         Cookie MonCookie = new Cookie("equipes", req.getParameter("equipe"));
-        MonCookie.setMaxAge(10);
+        MonCookie.setMaxAge(100);
         res.addCookie(MonCookie);
         monEquipePref= req.getParameter("equipe");
         }else {
@@ -105,7 +105,7 @@ public class ListeRencontre extends HttpServlet
 		int sc1 = rs.getInt("sc1");
 		int sc2 = rs.getInt("sc2");
 		Date jour = rs.getDate("jour");
-		pw.println("<td>" + num_match + "</td>" + "<td>" + eq1 + "</td>" + "<td>" + eq2 + "</td>" + "<td>" + jour + "</td>" + "<td>" + sc1 + "</td>" + "<td>" + sc2 + "</td>");
+		pw.println("<td>" + num_match + "</td>" + "<td>" + eq1 + "</td>" + "<td>" + eq2 + "</td>" + "<td>" + jour + "</td>" + "<td>" + sc1 + "</td>" + "<td>" + sc2 + "</td><td>"+"<input type=hidden name=supp value="+num_match+"><a href=http://localhost:8080/Tout/servlet-Delete?supp="+num_match+"><input type=button value=supprimer></a>"+"</td>");
 		//}
 		pw.println("</tr>");
 		
