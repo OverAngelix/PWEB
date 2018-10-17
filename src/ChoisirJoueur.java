@@ -60,12 +60,14 @@ public class ChoisirJoueur extends HttpServlet
 			    out.println("<th style=\"border: black groove 1px\">Maillot</th>");
 			    out.println("<th style=\"border: black groove 1px\">Nom</th>");
 			    out.println("<th style=\"border: black groove 1px\">Poste</th>");
+			    out.println("<th style=\"border: black groove 1px\"></th>");
 			    out.println("</tr>");
 			    while(rs2.next()){
 					out.println("<tr>");
 					out.println("<td style=\"border: black groove 1px\">"+rs2.getString("maillot")+"</td>");
 					out.println("<td style=\"border: black groove 1px\">"+rs2.getString("nom_joueur")+"</td>");
 					out.println("<td style=\"border: black groove 1px\">"+rs2.getString("poste")+"</td>");
+					out.println("<td style=\"border: black groove 1px\"><a href=\"./servlet-DeleteJoueurArray?supp="+rs2.getString("nom_joueur")+"\">SUPPRIMER</a></td>");
 					out.println("</tr>");
 			    }
 			}

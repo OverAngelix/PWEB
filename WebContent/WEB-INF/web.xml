@@ -131,4 +131,14 @@
   <url-pattern> /servlet-Reset </url-pattern>
   </servlet-mapping>
   
+      <servlet>
+  <servlet-name> DeleteJoueurArray </servlet-name>
+  <servlet-class> DeleteJoueurArray </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> DeleteJoueurArray </servlet-name>
+  <url-pattern> /servlet-DeleteJoueurArray </url-pattern>
+  </servlet-mapping>
+  
 </web-app>
