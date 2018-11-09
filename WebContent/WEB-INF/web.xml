@@ -141,4 +141,66 @@
   <url-pattern> /servlet-DeleteJoueurArray </url-pattern>
   </servlet-mapping>
   
+    
+      <servlet>
+  <servlet-name> Authent </servlet-name>
+  <servlet-class> Authent </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Authent </servlet-name>
+  <url-pattern> /servlet-Authent </url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  <servlet-name> Statue </servlet-name>
+  <servlet-class> Statue </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Statue </servlet-name>
+  <url-pattern> /servlet-Statue </url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+  <servlet-name> Modif </servlet-name>
+  <servlet-class> Modif </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Modif </servlet-name>
+  <url-pattern> /servlet-Modif </url-pattern>
+  </servlet-mapping>
+  
+         <servlet>
+  <servlet-name> Lecture </servlet-name>
+  <servlet-class> Lecture </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Lecture </servlet-name>
+  <url-pattern> /servlet-Lecture </url-pattern>
+  </servlet-mapping>
+  
+  
+       <servlet>
+  <servlet-name> Disconect </servlet-name>
+  <servlet-class> Disconect </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Disconect </servlet-name>
+  <url-pattern> /servlet-Disconect </url-pattern>
+  </servlet-mapping>
+  
+    
+       <servlet>
+  <servlet-name> Menu </servlet-name>
+  <servlet-class> Menu </servlet-class>
+  </servlet>
+  
+  <servlet-mapping> 
+  <servlet-name> Menu </servlet-name>
+  <url-pattern> /servlet-Menu </url-pattern>
+  </servlet-mapping>
 </web-app>
