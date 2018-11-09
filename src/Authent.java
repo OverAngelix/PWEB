@@ -33,7 +33,7 @@ public class Authent extends HttpServlet
 			if(rs.first()) {
 		    		session.setAttribute("user",req.getParameter("log"));
 		    		session.setAttribute("role", rs.getString("role"));
-		    		System.out.println(rs.getString("role"));
+		    		System.out.println(session.getAttribute("role"));
 		    		
 			}else{
 				session.setAttribute("user", null);

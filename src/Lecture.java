@@ -42,20 +42,12 @@ public class Lecture extends HttpServlet
 		String mdp= rs.getString("mdp");
 		String nom = rs.getString("nom");
 		String prenom = rs.getString("prenom");
-		String adresse = rs.getString("adresse");
-		String email = rs.getString("email");
-		String tel = rs.getString("tel");
-		String datenaiss = rs.getString("datenaiss");
 		String role = rs.getString("role");
 		pw.println("<p>"
 				+"login :"+log+"</br>"
 				+"mdp :"+mdp+"</br>"
 				+"nom :"+nom+"</br>"
 				+"prenom :"+prenom+"</br>"
-				+"adresse :"+adresse+"</br>"
-				+"email :"+email+"</br>"
-				+"tel :"+tel+"</br>"
-				+"date de naissance :"+datenaiss+"</br>"
 				+"role :"+role+"</br>"
 				+"</p>");
 		}
@@ -78,20 +70,13 @@ public class Lecture extends HttpServlet
    	  		String mdp= rs.getString("mdp");
    	  		String nom = rs.getString("nom");
    	  		String prenom = rs.getString("prenom");
-   	  		String adresse = rs.getString("adresse");
-   	  		String email = rs.getString("email");
-   	  		String tel = rs.getString("tel");
-   	  		String datenaiss = rs.getString("datenaiss");
+   	  		
    	  		String role = rs.getString("role");
    	  		pw.println("<p>"
    	  				+"login :"+log+"</br>"
    	  				+"mdp :"+mdp+"</br>"
    	  				+"nom :"+nom+"</br>"
    	  				+"prenom :"+prenom+"</br>"
-   	  				+"adresse :"+adresse+"</br>"
-   	  				+"email :"+email+"</br>"
-   	  				+"tel :"+tel+"</br>"
-   	  				+"date de naissance :"+datenaiss+"</br>"
    	  				+"role :"+role+"</br>"
    	  				+"</p>");
    	  		}
